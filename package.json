@@ -1,0 +1,14 @@
+{
+  "name": "advent_of_code_22",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "solutions to advent of code 2022",
+  "main": "index.js",
+  "scripts": {
+    "start": "func() { node ./day-${1:-01}/index.js; }; func",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "all": "node index.js"
+  },
+  "author": "Pranav Varmaraja",
+  "license": "ISC"
+}
